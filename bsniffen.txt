@@ -1,0 +1,95 @@
+                            Brian Sniffen
+   
+ 128 Ellison Park       401-239-2006 (voicemail)  bts@evenmere.org
+ Waltham, MA, 02452       857-413-7560 (cell)          April, 2016
+
+## Objective
+
+  My next job search will be guided by good problems and a good set of
+  peers to learn from. I expect them to be problems labeled "CSO,"
+  "(business unit) CTO" or similar, and to be looking to learn from a
+  CEO's senior advisors.
+
+## Recent Employment
+
+Chief Architect & Senior Director,
+Information Security,
+Akamai Technologies
+2008-2016
+    Hired to implement "Plan B," a vision of a research-based backstop
+    to a traditional network-admin security team.  By 2010, delivered
+    results sufficient to replace the traditional team with an applied
+    research team. We've hired for a long-term view and (typically) a
+    background outside IT security-- emphasizing fields with a strong
+    Safety Engineering culture (Chem. Eng., Aero-Astro), or an
+    adversarial focus (e.g., veterans). In 2016, that team is
+    responsible for:
+
+  - Safety: Set Akamai's incident response, train orst responders, and
+    engage directly with crises. We did the work in 2012 and 2013 that
+    let Akamai survive 2014 (Heartbleed, Shellshock, etc.) without
+    trauma.
+  - Cryptography: Centralized crypto and specialized security
+    engineering, leading re-investment in cryptographic excellence
+    after a period of benign neglect.
+  - Debt Reduction: Technical leadership of the "severe vulnerability"
+    process, a board-supervised, CEO- managed investment in serious
+    technical debts across the company. Twelve of the top twenty
+    actionable debts are mitigated or better, since 2013.
+  - Product & Platform Architecture: security architecture team
+    reviewing new products, including bring- ing that team from CMM1
+    work coordination by e-mails and a chat system to CMM3 publication
+    of professional reviews that have become the go-to resource for a
+    technical overview across the company.
+  - Compliance: Healing a broken and burned out team. Company myth
+    says we had push-button ISO 17799 assessments in 2006, but this
+    had rotted by 2010. After two years of intense training,
+    motivation, and re-organization, we have mature processes for
+    assessments against PCI-DSS, HIPAA/HITRUST, ISO 27002,
+    Sarbanes-Oxley, and FedRAMP. SOC2 is underway.
+
+
+Lead Researcher,
+Secure Technology Solutions,
+MITRE
+2003-2008
+    Designed and implemented a variety of security tools and programs
+    for government sponsors, managed teams of up to 10 people on tasks
+    of up to 4 full-time equivalents. Coordinated with remote
+    contributors and sponsors while anticipating sponsor's future and
+    inarticulable needs. Principal technical reference for trusted
+    computing technology (TPMs). Publications are at
+    http://www.evenmere.org/~bts/#papers
+
+Security Engineer,
+Systems Engineering,
+Akamai Technologies
+2000-2002
+    Security Engineer, founded Information Security
+    department. Responsible for integrating good security practice to
+    broad product line, architecture, process. Designer of critical
+    security infrastructure. Author of corporate Information Security
+    Program. Brought Akamai onto ISO 17799 certiocation path. Sales
+    support for security-conscious customers.
+
+## Selected Skills & Conversation Topics
+
+       comms   writing, speaking, editing, teaching
+  management   walking around, one on ones, listening, remote
+    web tech   XML, HTML, CSS, SQL, JS, DNS, HTTP, TLS, SMTP, Persona
+       tools   git, p4, Make, autotools, CPSA, Alloy, Emacs, vi
+     network   IPv4, IPv6, TCP, UDP
+       langs   Haskell, Python, bash, LaTeX, C, Perl, C++, Objective C,
+               Scheme, Java, PHP
+     
+       topics  board games, amateur radio, modernist cooking,
+               cognition, conAEict, planetary scale computing
+
+## Education
+
+Bachelor of Science,
+Computer Science and Engineering,
+Massachusetts Institute of Technology, 2000
+    Plus continuing coursework on modern cryptography, mostly from
+    Silvio Micali.  A thesis on Trust Economies in the Free Haven
+    Project is available at http://web.mit.edu/brians/www/thesis.pdf.
