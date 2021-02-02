@@ -1,0 +1,166 @@
+\documentclass[letterpaper]{article}
+\usepackage{microtype}
+\usepackage{ETbb}
+\usepackage{xcolor}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{hyperref}
+
+\newcommand{\CVAuthor}{Brian Sniffen}
+\newcommand{\CVTitle}{Brian Sniffen's executive CV}
+\newcommand{\CVNote}{CV compiled on {\today} for Akamai}
+\newcommand{\CVWebpage}{https://www.evenmere.org/~bts}
+
+\definecolor{dkblue}{rgb}{0.25,0.5,0.75}
+
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+\usepackage{oplotsymbl}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+pdfsubject={\CVWebpage},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+unicode=true,
+bookmarks=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+\newcommand{\mh}{\hangindent=25pt \hangafter=1 \parindent=25pt}
+
+\newcommand{\sect}[1]{\medskip \goodbreak {{\noindent \color{dkblue} \textsf{\large #1}\par}}\mh}
+\newcommand{\job}[3]{\smallskip \goodbreak {\parindent=0pt \halign to \hsize{\textsc##\hfil&, \textrm##\hfil\tabskip=0pt plus 1 fil&\tabskip=0pt\hfil\textsf##\cr\textsc{\textbf{#2}}&\emph{#3}&\textsf{#1}\cr}}\par\mh}
+
+\begin{document}\thispagestyle{empty}
+\begin{center}
+  \textsf{\Large Brian Sniffen}
+
+  \vskip -5pt
+  \centerline{\leaders\hrule\hskip 12cm}
+  
+  \smallskip
+
+  \begin{tabular}{lcr}
+    8 Haskell St.       & 401-239-2006 (voicemail) & bts@evenmere.org \\
+    Lexington, MA 02420 & 857-413-7560 (cell)      & February, 2020
+  \end{tabular}  
+\end{center}
+
+
+\sect{Recent Employment}
+
+\job{2008--present}{Chief Architect \& Senior Director, \rm Information Security}{Akamai Technologies}
+  Hired to implement ``Plan B,'' a
+  vision of a research-based backstop to a traditional network-admin
+  security team.  By 2010, delivered results sufficient to replace the
+  traditional team with an applied research team.  We've hired for a
+  long-term view and (typically) a background outside IT
+  security---emphasizing fields with a strong Safety Engineering
+  culture (Chem.~Eng., Aero-Astro), or an adversarial focus (e.g.,
+  veterans).  In 2016, that team is responsible for:
+
+\begin{itemize}
+\item Safety: Set Akamai's incident response, train first responders,
+and engage directly with crises.  We did the work in 2012 and 2013
+that let Akamai survive 2014 (Heartbleed, Shellshock, etc.) without trauma.
+\item Cryptography: Centralized crypto and specialized security
+engineering, leading re-investment in cryptographic excellence after a
+period of benign neglect.
+\item Debt Reduction: Technical leadership of the ``severe
+vulnerability'' process, a board-supervised, CEO-managed investment in
+serious technical debts across the company.  Twelve of the top twenty
+actionable debts are mitigated or better, since 2013.
+\item Product \& Platform Architecture:  security architecture team
+reviewing new products, including bringing that team from CMM1 work
+coordination by e-mails and a chat system to CMM3 publication of
+professional reviews that have become the go-to resource for a
+technical overview across the company.
+\item Compliance: Healing a broken and burned out team.  Company myth
+says we had push-button ISO 17799 assessments in 2006, but this had
+rotted by 2010.  After two years of intense training, motivation, and
+re-organization, we have mature processes for assessments against
+PCI-DSS, HIPAA/HITRUST, ISO 27002, Sarbanes-Oxley, and FedRAMP.  SOC2
+is underway.
+\end{itemize}
+
+  \job{2003--2008}{Lead Researcher, \rm Secure Technology
+  Solutions}{MITRE Corporation}
+%\mh
+Designed and implemented a variety of security
+  tools and programs for government sponsors, managed teams of up to
+  10 people on tasks of up to 4 full-time equivalents. Coordinated
+  with remote contributors and sponsors while anticipating sponsor's
+  future and inarticulable needs.  Principal technical reference for
+  trusted computing technology (TPMs).  Publications are at {\tt http://www.evenmere.org/$\sim$bts/\#papers}
+
+  \job{2000--2002}{Security Engineer, \rm Systems Engineering}{Akamai
+  Technologies}
+
+\def\BBB{\setbox0=\hbox{.}\raise 1\ht0\copy0\kern -\wd0\raise 3\ht0\copy0\kern-\wd0\raise 5\ht0\box0}
+\def\BB {\setbox0=\hbox{.}\raise 2\ht0\copy0\kern -\wd0\raise 4\ht0\box0}
+\def\B  {\setbox0=\hbox{.}\raise 3\ht0\box0}
+
+\newcommand{\rateHigh}{\circletfill}
+\newcommand{\rateMed}{\circletfillha}
+\newcommand{\rateFair}{\circletfillhb}
+\newcommand{\rateLow}{\circlet}
+
+\sect{Selected Skills \& Conversation Topics \hfill \small \color{black} \sf legend: \rateHigh superior, \rateMed current, \rateFair rusty, \rateLow nascent/lapsed}
+
+\newcommand\CC{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\tiny{\textbf{++}}}}
+
+{\sf
+\begin{tabular}{rl}
+  comms      & \rateHigh writing, \rateMed editing, \rateHigh teaching, \rateHigh speaking \\
+  management & \rateHigh walking around, \rateHigh one on ones,\rateHigh  listening, \rateMed remote \\
+  lanaguages & \rateHigh Haskell, \rateHigh Python, \rateFair OCaml, \rateFair C, \rateLow \CC{}, \rateMed Bash, \rateMed \LaTeX \\
+  natural languages & \rateHigh American English, \rateFair Latin, \rateLow Greek (Attic, Koine), \rateLow Hebrew \\
+  web tech & \rateMed XML, \rateMed HTML, \rateFair CSS, \rateFair SQL, \rateFair JS, \rateMed DNS, \rateHigh HTTP, \rateHigh TLS, \rateMed SMTP \\
+  tools & \rateHigh git, \rateMed p4, \rateHigh GNU Make, \rateFair autotools, \rateFair CPSA, \rateFair Alloy, \rateHigh Emacs, \rateMed vi \\
+  network & \rateHigh IPv4, \rateMed IPv6, \rateMed TCP, \rateMed UDP \\
+  \\
+  topics & \rateHigh board games, \rateMed amateur radio, \rateHigh modernist cooking, \\ & \rateMed cognition, \rateHigh conflict, \rateHigh planetary scale computing \\
+  authors & R. Coram, J. Boyd, A. Grove, N. Leveson, V. Rao
+\end{tabular}
+% \centerline{\vbox{\halign{\hfil\jdf#&\hskip 0.5em\jdf#\hfil\quad&\hfil\jdf#&\hskip 0.5em\jdf#\hfil\cr
+% comms    & \BBB writing, \BB editing, \BB teaching, \BBB speaking \cr
+% management & \BBB walking around, \BBB one on ones, \BBB listening, \BB remote\cr
+% languages    & \omit \jdf \hskip 0.5em  \BBB Haskell, \BBB Python, \BB OCaml, \BB C, \B C++, \B Objective C, \B Scheme,               \B Java,       \B PHP,   \BB Perl,      \BBB Bash, \BBB \LaTeX \cr
+% natural languages & \BBB American English, \BB Latin, \B Greek (Attic, Koine), \B Hebrew & & \cr
+% web tech & \omit \jdf \hskip 0.5em  \BB XML,       \BB HTML,         \B CSS,                  \BB SQL,                   \BB JS,         \BB DNS,        \BB HTTP,       \BB TLS,       \B SMTP,  \B Persona\cr
+% tools    & \BBB git,      \BB p4,           \BBB GNU Make,                \B autotools,             \B CPSA,        \B Alloy, \BBB Emacs, \BB vi & & \cr
+% network  & \BBB IPv4,                 \BB IPv6,                  \BB TCP,        \BB UDP    & & \cr
+% \noalign{\vskip 4pt}
+% topics   &  \omit \jdf \hskip 0.5em \BBB board games, \BB amateur radio, \BBB modernist cooking,  \BB cognition, \BBB conflict, \BBB planetary scale computing   \cr
+% authors & R.~Coram, J.~Boyd, A.~Grove, N.~Leveson, V.~Rao\cr
+% }}}}
+}
+
+\sect{Patents}
+\begin{itemize}
+\item Appraising systems with zero knowledge proofs; US 8422683 B2, US 8750520 B2
+\item Registry of modular services and a method for automatically selecting an appropriate service to provide particular logical guarantees; US 8300788 B2
+\item Attestation architecture and system; US 9276905 B2
+\end{itemize}
+
+
+\sect{Selected Talks \& Publications}
+See {\tt https://evenmere.org/$\sim$bts/\#papers} and {\tt https://evenmere.org/$\sim$bts/\#talks}.  
+
+\sect{Education}
+
+\job{2000}{Scientiae Baccalaureus, \rm Computer Science and Engineering}{Massachusetts Institute of Technology}
+Plus continuing coursework on modern cryptography, mostly from Silvio
+Micali.  Thesis: \emph{Trust Economies in the Free Haven Project},
+which informed early decisions in the Tor privacy-protecting network
+system.
+
+\end{document}

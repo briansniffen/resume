@@ -1,0 +1,136 @@
+\input prelude
+
+\pdfpageheight=11in
+\pdfpagewidth=8.5in
+\voffset=-0.4in
+\vsize=9.5in
+
+\nopagenumbers
+
+\centerline{{\hf Michael Stone}}
+
+\vskip -5pt
+\centerline{\leaders\hrule\hskip 12cm}
+
+\smallskip
+
+%{\parindent=0pt \baselineskip=8p t
+\centerline{\vbox{\hhhf {\halign{#\hfil&\qquad\qquad\hfil#\hfil&\qquad\qquad\hfil#\cr
+55 Sacramento St, Apt 1 & (301) 283-1384         & michael.r.stone@gmail.com      \cr
+Cambridge, MA, 02138 &                           & December 22, 2014              \cr}}}}
+
+% Values -> Objectives -> Actions
+%   I value comfort. I value feeling carefree and not guilty.
+%   I value caring for others and for myself.
+%   I value being needed. I value engagement. I sometimes value being relied upon (and sometimes not).
+%   I value integrity.
+
+% Desire -> Intention -> Goal -> Concept -> Plan -> Action
+%   I desire a zombie-free world.
+%   I desire a safer world: freedom of speech, freedom of worship, freedom from want, freedom from fear.
+
+% Thoughts -> Words -> Deeds -> Habits -> Destiny
+%\sect{Goal}{
+% \sect{tl;dr:}{
+%   \mh I care about using my talents to good and mutually profitable effect to make life pleasant for me, for you, for the people I have come to care about, and, ideally, for the rest of the world over the long term.
+% }
+
+\sect{Education}{
+  ``Sesame Street'', ``Reading Rainbow'', ``3-2-1 Contact!'', ``Mr.\ Rogers' Neighborhood'': many years.
+
+  BA with High Honors, Math \& Stats + English, Swarthmore College, 4 years.
+
+  Security and Release Management, OLPC, 18 months.
+
+  Security, Safety, Incident Management, Management, and Leadership, Akamai Technologies, 5 years.
+}
+
+\sect{Selected Learnings}{
+  \mh Mathematics taught me rigor. CS taught me to debug. Art taught me to see, to read, and to analyze. Security taught me to reflect. Safety taught me to plan and to work together. Finally, management and leadership are teaching me some useful ways to achieve, often working together with available people.
+}
+
+\def\BBB{\setbox0=\hbox{.}\raise 1\ht0\copy0\kern -\wd0\raise 3\ht0\copy0\kern-\wd0\raise 5\ht0\box0}
+\def\BB {\setbox0=\hbox{.}\raise 2\ht0\copy0\kern -\wd0\raise 4\ht0\box0}
+\def\B  {\setbox0=\hbox{.}\raise 3\ht0\box0}
+
+% unpracticed
+\sect{Selected Skills \& Conversation Topics \hfill \jdf \color{black} legend \hskip 0.5em \BBB current, \BB rusty, \B nascent/lapsed}{ \smallskip
+\centerline{\vbox{\halign{\hfil\jdf#&\hskip 0.5em\jdf#\hfil\quad&\hfil\jdf#&\hskip 0.5em\jdf#\hfil\cr
+langs      &  \omit \hskip0.5em \BBB C, \BBB Golang, \BB C++, \BB Python,  \span \omit \span \omit \B Scheme, \BB Haskell, \B Java, \B PHP, \B VHDL, \BB bash, \BB \TeX \cr
+web tech  &  \omit \jdf \hskip 0.5em \BB XML, \BB HTML, \BB CSS, \BB SQL, \BB JS, \B RDF \span \omit \span \omit \B DNS, \BB HTTP, \BB TLS, \B SMTP, \B POP3, \B XMPP \cr
+tools    & \omit \jdf \hskip 0.5em \BBB git, \BB p4, \BBB Make, \BB autotools, \BB klee, \B s2e, \BB LLVM IR, \B CPSA, \B Coq, \B Alloy, \B DIVINE  \span \omit \span \omit                                  \cr
+network  & \B IEEE 802, {\B}802.11b/g, \BB IPv4, \BB IPv6, \BB TCP, \BB UDP & &   \cr
+safety     &  \BBB STPA, \BBB CAST, \B intent specifications, \BB asking good questions, \BB finding answers & & \cr
+math & \B algebra, \B real analysis, \B topology, \BB probability, \BB statistics, \BB queueing theory, \B control theory        &  & \cr
+%nat langs  &  \BBB English, \BB French, \B Spanish, \B Hindi           &            &                                                 \cr
+%\noalign{\vskip 4pt}
+topics     &  \omit \jdf \hskip 0.5em \BBB reading, \BB games, \B cooking, \BB travel, \B law, \BB causality, \BBB planning, \BB empiricism, \BB cognition, \B conflict & &         \cr
+}}}}
+
+
+%\eject
+
+%\centerline{{\hf Michael Stone}}
+
+%\vskip -5pt
+%\centerline{\leaders\hrule\hskip 12cm}
+
+%\smallskip
+
+\sect{Recent Employment}{
+  \job{2013-2014}{Senior Architect, \rm Information Security}{Akamai Technologies}
+    \mh Today, I manage Akamai's ``Safety Team'', which oversees and
+    administers Akamai's company-wide technical incident management process.
+    Together with three reports, one peer, and several senior colleagues, I
+    review tens of incidents per year, train hundreds of incident responders,
+    answer senior management's incident-related questions, and personally help
+    support, coordinate, \& direct response efforts for internet-wide security
+    crises as needed. To date, multiple of my lifetime staff have been or are up
+    for promotion.
+
+  \job{2011-2012}{Architect, \rm Information Security}{Akamai Technologies}
+    \mh While continuing to provide product security architecture Advice \&
+    Review, I joined Akamai's 24x7x365 incident management on-call rotation,
+    the members of which are expected to be able to manage {\jtf any} emerging
+    technical problem until other help arrives. Earlier, I also prototyped
+    several information retrieval systems for distributed log search,
+    suspicious JavaScript detection, and code search running in Python, C++,
+    and Haskell, in some cases on thousands of machines and petabytes of data,
+    and became a people-manager, thereby hiring and developing several security researchers.
+
+  \job{mid 2009-2010}{Senior Researcher, \rm Information Security}{Akamai Technologies}
+    \mh As a new hire, I polished and turned the crank on Akamai's security architecture ``Advice
+    \& Review'' technical oversight process, gained early experience
+    communicating results to senior management, built tools, advised incident
+    managers as a subject-matter expert in information security, and, by happy
+    accident, discovered and introduced Dr.\ Nancy Leveson's {\jdf STAMP}
+    model of accident causation and system safety to Akamai.
+
+  \job{March 2008-Jan 2009}{Release Manager}{One Laptop per Child}
+    \mh In 34 weeks, I defined a new release process and, in concert with
+    representatives from ProdM, QA, Eng, and Biz, guided a distributed team of
+    employees, contractors, and community members which integrated changes
+    that closed approximately 1,000 tickets, including a complete UI redesign.
+    The release shipped within 6 weeks of the target month, with only two
+    serious regressions, to positive reviews on Amazon and in the OLPC
+    software community at large.
+
+  \job{June 2007-March 2008}{Software Developer}{One Laptop per Child}
+    \mh I delivered portions of OLPC's ``Bitfrost'' security system including
+    its activity isolation framework, parts of its software theft deterrence
+    system, and its secure update system. This work addressed the technical
+    problem of safeguarding the education of hundreds of thousands of children
+    and the commercial problem of convincing several governments to purchase
+    Linux-based educational laptops from an untested startup.
+}
+
+% \eject
+
+% \centerline{{\hf Michael Stone}}
+
+% \vskip -5pt
+% \centerline{\leaders\hrule\hskip 12cm}
+
+% \smallskip
+
+\end
