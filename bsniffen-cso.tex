@@ -39,6 +39,8 @@ breaklinks}
 \newcommand{\sect}[1]{\medskip \goodbreak {{\noindent \color{dkblue} \textsf{\large #1}\par}}\mh}
 \newcommand{\job}[3]{\smallskip \goodbreak {\parindent=0pt \halign to \hsize{\textsc##\hfil&, \textrm##\hfil\tabskip=0pt plus 1 fil&\tabskip=0pt\hfil\textsf##\cr\textsc{\textbf{#2}}&\emph{#3}&\textsf{#1}\cr}}\par\mh}
 
+\newcommand{\cmm}[1]{\href{https://en.wikipedia.org/wiki/Capability_Maturity_Model}{\textsc{cmm}#1}}
+
 \begin{document}\thispagestyle{empty}
 \begin{center}
   \textrm{\Large Brian Sniffen}
@@ -60,8 +62,10 @@ breaklinks}
 Apply technical expertise to advance the mission of the company.  In
 practice, this means two jobs: one as an individual contributor like
 the other Akamai Fellows, one supervising a group that peers to
-Engineering and Product departments run by \textsc{vp}s.  Let's break those out:
+Engineering and Product departments run by \textsc{vp}s.  Let's break
+those out:
 
+\vspace{-2\parskip}
 \noindent \begin{minipage}[t]{0.5\linewidth}
   \job{}{Chief Security Architect}{Akamai}
   \begin{itemize}
@@ -69,18 +73,25 @@ Engineering and Product departments run by \textsc{vp}s.  Let's break those out:
       technical depth in others, be a font of technical
         expertise.  Be a trusted advisor for Akamai's executives.
     \item Influence: Persuade Engineering and Product \textsc{vp}s to
-      prioritize security improvements and pay down on technical debt.
+      prioritize security improvements, \textbf{ensure progress on
+        security initiatives}, and pay down on technical debt.
       Use the boundaries of the mandatory incident \& \textsc{esv} processes as
       terrain to drive voluntary improvements.
-    \item Oracle: See the future of tech and techncial businesses that
+    \item Oracle: See the future of tech and technical businesses that
       will affect Akamai, and change that future as appropriate.
       Engage with standards bodies, build relationships with peers
       across industry and academy, and inform execs of coming risks.
     \item Safety: Set Akamai's incident response, train first responders,
-      and engage directly with crises.  Answer the phone when the
+      and \textbf{engage directly with crises}.  Answer the phone when the
       \textsc{fbi} needs help in minutes.  Also incident exec, handle
-      \textsc{nsl}s and \textsc{ecpa} orders, and supervise a process that
-      annually produces a first-class problem.
+      \textsc{nsl}s and \textsc{ecpa} orders, and \textbf{design and implement the process} that
+      responds to and reduces risks to our customers.
+    \item Sales: \textbf{Collaborate with sales} to handle objections from
+      customer security teams---both indirectly, through an
+      operational ``SecSales'' team, and directly through
+      \textsc{ebc}s with security-sensitive customers.  My sales
+      colleagues will tell you I pay for my whole team with the deals
+      I contribute to closing.
     \item Cryptography: Centralized crypto and specialized security
       engineering, leading re-investment in cryptographic excellence after a
       period of benign neglect.
@@ -91,16 +102,15 @@ Engineering and Product departments run by \textsc{vp}s.  Let's break those out:
   \begin{itemize}
   \item Debt Reduction: Technical leadership of the ``severe
 vulnerability'' process, a board-supervised, \textsc{ceo}-managed investment in
-serious technical debts across the company.  Twelve of the top twenty
-actionable debts are mitigated or better, since 2013.
+serious technical debts across the company.  Twenty-five major
+vulnerabilities have been significantly mitigated since 2013.
 \item Product \& Platform Architecture:  security architecture team
-reviewing new products, including bringing that team from \href{https://en.wikipedia.org/wiki/Capability_Maturity_Model}{\textsc{cmm}1} work
-coordination by e-mails and a chat system to \href{https://en.wikipedia.org/wiki/Capability_Maturity_Model}{\textsc{cmm}3} publication of
+reviewing new products, including bringing that team from \cmm{1} work
+coordination by e-mails and a chat system to \cmm{3} publication of
 professional reviews that have become the go-to resource for a
 technical overview across the company.  Now 80\% through a transition
-to
-\href{https://en.wikipedia.org/wiki/Capability_Maturity_Model}{\textsc{cmm}4}
-``EZPath'' system that brings review \& analysis capability into
+to \cmm{4}
+``\textsc{ez}Path'' system that brings review \& analysis capability into
 product groups.
 \item Compliance: Healed a broken and burned out team.  An
   extraordinarily high-functioning team in 2006 had suffered from
@@ -108,8 +118,8 @@ product groups.
   supervision.  After two years of intense training, motivation, and
   re-organization, we had mature processes for assessments against
   \textsc{pci-dss, hipaa/hitrust, iso 27002}, Sarbanes-Oxley, and
-  Fed\textsc{ramp}.  I hired a new Director of Compliance, brought him to
-  speed, promoted him to a peer, and spun off a high-functioning
+  Fed\textsc{ramp}.  I hired a new Director of Compliance, brought him
+  up to speed, promoted him to a peer, and spun off a high-functioning
   Compliance team.
 \item Management: Greatly exceeded norms for employee retention, development
   of talent, and diversity \& inclusion.
@@ -129,41 +139,42 @@ Designed and implemented a variety of security
 
   \job{2000--2002}{Security Engineer, \rm Systems Engineering}{Akamai Technologies}
 
-\newcommand{\rateHigh}{\circletfill}
-\newcommand{\rateMed}{\circletfillha}
-\newcommand{\rateFair}{\circletfillhb}
-\newcommand{\rateLow}{\circlet}
+% \newcommand{\rateHigh}{\circletfill}
+% \newcommand{\rateMed}{\circletfillha}
+% \newcommand{\rateFair}{\circletfillhb}
+% \newcommand{\rateLow}{\circlet}
 
-\sect{Selected Skills \& Conversation Topics \hfill \small \color{black} \sf legend: \rateHigh superior, \rateMed current, \rateFair rusty, \rateLow nascent/lapsed}
+% \sect{Selected Skills \& Conversation Topics \hfill \small \color{black} \sf legend: \rateHigh superior, \rateMed current, \rateFair rusty, \rateLow nascent/lapsed}
 
-\newcommand\CC{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\tiny{\textbf{++}}}}
+% \newcommand\CC{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\tiny{\textbf{++}}}}
 
-{\sf
-\begin{tabular}{rl}
-  comms      & \rateHigh writing, \rateMed editing, \rateHigh teaching, \rateHigh speaking \\
-  management & \rateHigh influence, \rateHigh walking around,
-               \rateHigh one on ones,\rateHigh  listening, \rateMed
-               remote \\
-  business & \rateHigh systems engineering, \rateMed process design,
-             \rateHigh risk management \\
-  & \rateMed technical compliance, \rateHigh foresight, \rateMed
-    standards bodies \\
-%  lanaguages & \rateHigh Haskell, \rateHigh Python, \rateFair OCaml, \rateFair C, \rateLow \CC{}, \rateMed Bash, \rateMed \LaTeX \\
-%  natural languages & \rateHigh American English, \rateFair Latin, \rateLow Greek (Attic, Koine), \rateLow Hebrew \\
-  \\
-  topics & \rateHigh board games, \rateMed amateur radio, \rateHigh
-           modernist cooking, \\
-         & \rateMed cognition, \rateHigh conflict, \rateHigh planetary scale computing \\
-  authors & R.~Coram, J.~Boyd, A.~Grove, N.~Leveson, V.~Rao,
-            R.~Cialdini, D.~Pink
-\end{tabular}
-}
-% \sect{Patents}
-% \begin{itemize}
-% \item Appraising systems with zero knowledge proofs; US 8422683 B2, US 8750520 B2
-% \item Registry of modular services and a method for automatically selecting an appropriate service to provide particular logical guarantees; US 8300788 B2
-% \item Attestation architecture and system; US 9276905 B2
-% \end{itemize}
+% {\sf
+% \begin{tabular}{rl}
+%   comms      & \rateHigh writing, \rateMed editing, \rateHigh teaching, \rateHigh speaking \\
+%   management & \rateHigh influence, \rateHigh walking around,
+%                \rateHigh one on ones,\rateHigh  listening, \rateMed
+%                remote \\
+%   business & \rateHigh systems engineering, \rateMed process design,
+%              \rateHigh risk management \\
+%   & \rateMed technical compliance, \rateHigh foresight, \rateMed
+%     standards bodies \\
+% %  lanaguages & \rateHigh Haskell, \rateHigh Python, \rateFair OCaml, \rateFair C, \rateLow \CC{}, \rateMed Bash, \rateMed \LaTeX \\
+% %  natural languages & \rateHigh American English, \rateFair Latin, \rateLow Greek (Attic, Koine), \rateLow Hebrew \\
+%   \\
+%   topics & \rateHigh board games, \rateMed amateur radio, \rateHigh
+%            modernist cooking, \\
+%          & \rateMed cognition, \rateHigh conflict, \rateHigh planetary scale computing \\
+%   authors & R.~Coram, J.~Boyd, A.~Grove, N.~Leveson, V.~Rao,
+%             R.~Cialdini, D.~Pink
+% \end{tabular}
+% }
+
+  \sect{Patents}
+\begin{itemize}
+\item Appraising systems with zero knowledge proofs; US 8422683 B2, US 8750520 B2
+\item Registry of modular services and a method for automatically selecting an appropriate service to provide particular logical guarantees; US 8300788 B2
+\item Attestation architecture and system; US 9276905 B2
+\end{itemize}
 
 
 \sect{Selected Talks \& Publications}
