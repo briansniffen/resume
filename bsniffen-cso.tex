@@ -2,7 +2,8 @@
 \usepackage{microtype}
 \usepackage[oldstyle]{ETbb}
 \usepackage{xcolor}
-\usepackage[margin=0.5in]{geometry}
+\usepackage[margin=1in]{geometry}
+\usepackage[document]{ragged2e}
 \usepackage{hyperref}
 
 \newcommand{\CVAuthor}{Brian Sniffen}
@@ -22,7 +23,7 @@
 pdftitle={\CVTitle},
 pdfauthor={\CVAuthor},
 pdfsubject={\CVWebpage},
-pdfcreator={XeLaTeX},
+pdfcreator={LaTeX},
 pdfproducer={},
 pdfkeywords={},
 unicode=true,
@@ -50,81 +51,96 @@ breaklinks}
   
   \smallskip
 
-  \begin{tabular}{lcr}
+  \begin{tabular}{llr}
     8 Haskell St.       & 401-239-2006 (voicemail) & bts@evenmere.org \\
     Lexington, MA 02420 & 857-413-7560 (cell)      & February, 2020
   \end{tabular}  
 \end{center}
 
-
 \sect{Recent Employment}
-\job{2008--}{Fellow}{Akamai Technologies}
-Apply technical expertise to advance the mission of the company.  In
-practice, this means two jobs: one as an individual contributor like
-the other Akamai Fellows, one supervising a group that peers to
-Engineering and Product departments run by \textsc{vp}s.  Let's break
-those out:
+\job{2018--}{Fellow}{Akamai Technologies}
+Applied technical expertise to advance the mission of the company.
+Most people with this title are individual contributors; I also
+managed a department of 30--50 persons.  Breaking those out here:
+  \job{}{Vice President, \rm System Safety \& Resilience}{Akamai Technologies}
+  \begin{itemize}
+  \item Cross-functional project leadership: Principal technical lead
+    of the ``severe vulnerability'' process, a board-supervised,
+    \textsc{ceo}-managed investment in serious technical debts across
+    the company.  We significantly mitigated Twenty-five major
+    vulnerabilities since 2013.  Created the program structure that
+    allowed us to repeatedly achieve projects across \textsc{vp}
+    domains and business units.
+  \item De-risked products \& accelerated product launch: Led the
+    security architecture team reviewing new products, including
+    bringing that team from \cmm{1} work coordination by e-mails and a
+    chat system to \cmm{3} publication of professional reviews that
+    have become the go-to resource for a technical overview across the
+    company.  Created the \cmm{4} ``\textsc{ez}Path'' system that
+    applies Reinertsen's lean product flow ideas to bring review \&
+    analysis capability into product groups---removing latency and
+    putting Engineering and Product \textsc{vp}s in control of their
+    own launch timing.
+  \item Team building and repair: Healed a broken and burned out team.
+    An extraordinarily high-functioning team in 2006 had suffered from
+    scaling and personnel problems by 2010.  It moved under my
+    supervision.  After two years of intense training, motivation, and
+    re-organization, we had mature processes for assessments against
+    \textsc{pci-dss, hipaa/hitrust, iso 27002}, Sarbanes-Oxley, and
+    Fed\textsc{ramp}.  I hired a new Director of Compliance, brought
+    him up to speed, promoted him to a peer, and spun off a
+    high-functioning Compliance team.  Also grew and spun off the
+    teams that became the Office of the \textsc{cso} and the operational
+    Sensing team.
+  \item Values-first leadership: Greatly exceeded norms for employee
+    retention (one undesirable departure in ten years), development of
+    talent, and diversity \& inclusion.  Reduced to practice a system
+    for training recent-graduate engineers to the ``Architect''
+    mid-career level, reducing need to compete for these scarce people
+    on the open market.
+  \end{itemize}
 
-\vspace{-2\parskip}
-\noindent \begin{minipage}[t]{0.5\linewidth}
-  \job{}{Chief Security Architect}{Akamai}
+\job{}{Chief Security Architect}{Akamai Technologies}
   \begin{itemize}
-    \item Expertise: Both directly and by fostering growth in
-      technical depth in others, be a font of technical
-        expertise.  Be a trusted advisor for Akamai's executives.
-    \item Influence: Persuade Engineering and Product \textsc{vp}s to
-      prioritize security improvements, \textbf{ensure progress on
-        security initiatives}, and pay down on technical debt.
-      Use the boundaries of the mandatory incident \& \textsc{esv} processes as
-      terrain to drive voluntary improvements.
-    \item Oracle: See the future of tech and technical businesses that
-      will affect Akamai, and change that future as appropriate.
-      Engage with standards bodies, build relationships with peers
-      across industry and academy, and inform execs of coming risks.
-    \item Safety: Set Akamai's incident response, train first responders,
-      and \textbf{engage directly with crises}.  Answer the phone when the
-      \textsc{fbi} needs help in minutes.  Also incident exec, handle
-      \textsc{nsl}s and \textsc{ecpa} orders, and \textbf{design and implement the process} that
-      responds to and reduces risks to our customers.
-    \item Sales: \textbf{Collaborate with sales} to handle objections from
-      customer security teams---both indirectly, through an
-      operational ``SecSales'' team, and directly through
-      \textsc{ebc}s with security-sensitive customers.  My sales
-      colleagues will tell you I pay for my whole team with the deals
-      I contribute to closing.
-    \item Cryptography: Centralized crypto and specialized security
-      engineering, leading re-investment in cryptographic excellence after a
-      period of benign neglect.
+  \item Industry Expert: Foresaw the future of tech and technical
+    businesses that will affect Akamai, and changed that future as
+    appropriate.  Engaged with standards bodies, built relationships
+    with peers across industry and academy, and informed execs of
+    coming risks.  Engaged with the \textsc{tls 1.3} working group,
+    averting a competitor-driven standards change that would have
+    obsoleted core Akamai technology.
+  \item Influence: Persuaded Engineering and Product \textsc{vp}s to
+    prioritize security improvements, \textbf{ensure progress on
+      security initiatives}, and pay down on technical debt.  Used the
+    boundaries of the mandatory incident-response \&
+    severe-vulnerability processes as terrain to adjust \textsc{batna}
+    of Engineering leadership and drive voluntary improvements.
+  \item Safety: Overhauled a long-standing and highly successful
+    incident-response program to focus on learning from incidents and
+    making new mistakes---rather than showing operational excellence
+    in creating the same problems for the same customers.  Brought in
+    ideas from \textsc{mit} Prof. Leveson's \textsc{stamp/cast}
+    analysis to emphasize \textbf{systems engineering} and blame-free,
+    all-levels reviews.  Incident frequency dropped, quality of
+    customer communications improved, and process maturity improved.
+    Transferred first-responder duties from \emph{ad hoc} phone trees
+    to a 24/7 staffed operator desk, cutting response latency from 20
+    minutes to 2 minutes.
+  \item Sales: \textbf{Collaborated with sales} to handle objections
+    from customer security teams---both indirectly, through an
+    operational ``SecSales'' team, and directly through \textsc{ebc}s
+    with security-sensitive customers.  Worked with an operational
+    team to seed their database of high-quality technical responses to
+    objections, reducing workload on senior staff by reducing
+    responses to practice and improving process.  Brought escalations
+    from every-other-deal to a rare event.  Handled those escalations
+    to close ``impossible'' deals.
   \end{itemize}
-\end{minipage}%
-\begin{minipage}[t]{0.5\linewidth}
-  \job{}{Vice President, \rm System Safety \& Resilience}{Akamai}
-  \begin{itemize}
-  \item Debt Reduction: Technical leadership of the ``severe
-vulnerability'' process, a board-supervised, \textsc{ceo}-managed investment in
-serious technical debts across the company.  Twenty-five major
-vulnerabilities have been significantly mitigated since 2013.
-\item Product \& Platform Architecture:  security architecture team
-reviewing new products, including bringing that team from \cmm{1} work
-coordination by e-mails and a chat system to \cmm{3} publication of
-professional reviews that have become the go-to resource for a
-technical overview across the company.  Now 80\% through a transition
-to \cmm{4}
-``\textsc{ez}Path'' system that brings review \& analysis capability into
-product groups.
-\item Compliance: Healed a broken and burned out team.  An
-  extraordinarily high-functioning team in 2006 had suffered from
-  scaling and personnel problems by 2010.  It moved under my
-  supervision.  After two years of intense training, motivation, and
-  re-organization, we had mature processes for assessments against
-  \textsc{pci-dss, hipaa/hitrust, iso 27002}, Sarbanes-Oxley, and
-  Fed\textsc{ramp}.  I hired a new Director of Compliance, brought him
-  up to speed, promoted him to a peer, and spun off a high-functioning
-  Compliance team.
-\item Management: Greatly exceeded norms for employee retention, development
-  of talent, and diversity \& inclusion.
-  \end{itemize}
-\end{minipage}
+
+  \job{2012--2018}{Chief Security Architect}{Akamai Technologies}
+  \job{2011--2012}{Principal Security Architect}{Akamai Technologies}
+  \job{2009--2011}{Senior Security Architect}{Akamai Technologies}
+  \job{2008--2009}{Security Architect}{Akamai Technologies}
 
 \job{2003--2008}{Lead Researcher, \rm Secure Technology
   Solutions}{MITRE Corporation}
@@ -190,7 +206,7 @@ For more, see \href{https://www.evenmere.org/~bts/#papers}{https://evenmere.org/
 
 \sect{Education}
 
-\job{2000}{Scientiae Baccalaureus, \rm Computer Science and Engineering}{Massachusetts Institute of Technology}
+\job{2000}{SB, \rm Computer Science and Engineering}{Massachusetts Institute of Technology}
 Plus continuing coursework on modern cryptography, mostly from Silvio
 Micali.  Thesis: \emph{Trust Economies in the Free Haven Project},
 which informed early decisions in the Tor privacy-protecting network
